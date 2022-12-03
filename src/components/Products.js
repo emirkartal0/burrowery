@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Products() {
     return (
@@ -24,6 +25,13 @@ function Products() {
                     <img src='/images/product.png' alt="prod" />
                     <img src='/images/product.png' alt="prod" />
                     <img src='/images/product.png' alt="prod" />
+                </div>
+                <div className='flex justify-center bg-about'>
+                    <Link
+                        className=" focus:outline-none cursor-pointer text-white bg-green bg-koyu focus:ring-4 focus:ring-green-300 font-medium rounded-lg mt-3 text-sm px-5 py-2.5 mr-2 my-3"
+                        to='urunler'>
+                        Ürünleri incele
+                    </Link>
                 </div>
             </div>
         </div>

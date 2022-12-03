@@ -8,6 +8,7 @@ module.exports = {
       'koyu': '#002521',
       'acik': '#BB8741',
       'about': '#f9f3ebd9',
+      'white': '#FFFFFF'
     },
     extend: {
       backgroundImage: {

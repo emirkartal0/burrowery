@@ -1,18 +1,18 @@
-import AboutUs from "./components/AboutUs";
-import Blog from "./components/Blog";
-import Header from "./components/Header";
-import Products from "./components/Products";
-import Sustained from "./components/Sustained";
-import Video from "./components/Video";
+import MainPage from "./components/MainPage";
+import AboutPage from "./pages/AboutPage";
+import SustainedPage from "./pages/SustainedPage";
+import ProductsPage from "./pages/ProductsPage";
+import BlogPage from "./pages/BlogPage";
 import {
   BrowserRouter as Router,
+  Routes,
+  Route
 } from "react-router-dom";
 import HamburgerMenu from "./components/HamburgerMenu";
 
 function App() {
   return (
     <Router>
-    <HamburgerMenu/>
       <Header />
       <AboutUs />
       <Video />
