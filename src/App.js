@@ -7,10 +7,12 @@ import Video from "./components/Video";
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
+import HamburgerMenu from "./components/HamburgerMenu";
 
 function App() {
   return (
     <Router>
+    <HamburgerMenu/>
       <Header />
       <AboutUs />
       <Video />
