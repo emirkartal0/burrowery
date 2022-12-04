@@ -13,7 +13,6 @@ import {
 function App() {
   return (
       <Router>
-        <HamburgerMenu />
         <Routes>
           <Route path='/' element={ <MainPage /> } />
           <Route path='/hakkımızda' element={ <AboutPage /> } />

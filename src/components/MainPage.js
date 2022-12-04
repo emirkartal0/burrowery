@@ -6,22 +6,24 @@ import Products from "./Products";
 import Sustained from "./Sustained";
 import Video from "./Video";
 import Footer from "./Footer";
-import SSS from "./SSS";
 import Cominication from "./Cominication";
+import HamburgerMenu from "./HamburgerMenu";
+import SSS from "./SSS/SSS";
 
 function MainPage() {
     return (
-        <>
+        <div className="overflow-hidden">
+            <HamburgerMenu />
             <Header />
             <AboutUs />
             <Video />
             <Sustained />
             <Products />
             <Blog />
-            <SSS />
             <Cominication />
+            <SSS/>
             <Footer />
-        </>
+        </div>
     );
 }
 
