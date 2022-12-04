@@ -18,7 +18,7 @@ function Cominication() {
     }
 
     return (
-        <div id="cominication" className="pt-20 px-20 pb-10 bg-about">
+        <div id="cominication" className="mt-20 px-20 pb-10 bg-about">
             <h3 className="text-4xl font-light">İletişim / Sipariş Formu</h3>
             <p className="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aut reiciendis minima ipsam sunt nobis repellendus. Quisquam odit similique sapiente reiciendis molestiae, odio possimus doloremque molestias excepturi incidunt atque ipsum!, odio possimus doloremque molestias excepturi incidunt atque ipsum!</p>
             <form onSubmit={sendForm} action="" className="flex flex-col gap-3 mt-2">

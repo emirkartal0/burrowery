@@ -12,7 +12,7 @@ import SSS from "./SSS/SSS";
 
 function MainPage() {
     return (
-        <>
+        <div className="bg-about">
             <HamburgerMenu />
             <Header />
             <AboutUs />
@@ -23,7 +23,7 @@ function MainPage() {
             <SSS />
             <Cominication />
             <Footer />
-        </>
+        </div>
     );
 }
 
