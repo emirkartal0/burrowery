@@ -12,7 +12,7 @@ import SSS from "./SSS/SSS";
 
 function MainPage() {
     return (
-        <div className="overflow-hidden">
+        <>
             <HamburgerMenu />
             <Header />
             <AboutUs />
@@ -20,10 +20,10 @@ function MainPage() {
             <Sustained />
             <Products />
             <Blog />
+            <SSS />
             <Cominication />
-            <SSS/>
             <Footer />
-        </div>
+        </>
     );
 }
 

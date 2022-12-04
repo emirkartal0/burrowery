@@ -26,11 +26,11 @@ function SSS() {
 
 
     return (
-        <div className="w-full flex flex-col items-center bg-[#E1E3E2]">
+        <div className="w-full flex flex-col items-center bg-about">
             <div className="">
                 <img src={background} alt="S.S.S. "></img>
             </div>
-            <div className="bg-about w-full flex flex-col items-center">
+            <div className="bg-about w-full flex flex-col items-center mt-5">
                 {
                     accordions.map((accordion, index) => (
                         <AccordionBar openAccordion={openAccordion} setOpenAccordion={setOpenAccordion} accordion={accordion} key={index} index={index} />
