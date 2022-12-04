@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Products() {
     return (
-        <div className='w-full h-full bg-acik'>
+        <div id='products' className='w-full h-full bg-acik'>
             <div className='flex flex-row justify-center p-10'>
                 <img className='w-1/4' src="/images/prod.png" alt="product" />
                 <img className='w-1/4' src="/images/prod.png" alt="product" />
@@ -35,7 +35,6 @@ function Products() {
                 </div>
             </div>
         </div>
-
     )
 }
 

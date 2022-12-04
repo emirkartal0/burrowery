@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function AboutUs() {
     return (
-        <div>
+        <div id='about'>
             <div className="flex flex-col justify-center items-center p-10 bg-about w-full h-3/4">
                 <h3 className=" text-koyu text-4xl font-serif font-extralight mt-8">
                     Hakkımızda

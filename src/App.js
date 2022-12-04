@@ -3,7 +3,6 @@ import AboutPage from "./pages/AboutPage";
 import SustainedPage from "./pages/SustainedPage";
 import ProductsPage from "./pages/ProductsPage";
 import BlogPage from "./pages/BlogPage";
-import HamburgerMenu from "./components/HamburgerMenu";
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,15 +11,15 @@ import {
 
 function App() {
   return (
-      <Router>
-        <Routes>
-          <Route path='/' element={ <MainPage /> } />
-          <Route path='/hakkımızda' element={ <AboutPage /> } />
-          <Route path='/surdurulebilir' element={ <SustainedPage /> } />
-          <Route path='/urunler' element={ <ProductsPage /> } />
-          <Route path='/blog' element={ <BlogPage /> } />
-        </Routes>
-      </Router>
+    <Router>
+      <Routes>
+        <Route path='/' element={<MainPage />} />
+        <Route path='/hakkımızda' element={<AboutPage />} />
+        <Route path='/surdurulebilir' element={<SustainedPage />} />
+        <Route path='/urunler' element={<ProductsPage />} />
+        <Route path='/blog' element={<BlogPage />} />
+      </Routes>
+    </Router>
   );
 }
 
