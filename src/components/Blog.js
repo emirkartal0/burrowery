@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blog() {
     return (
-        <div className='flex flex-col p-10 bg-about'>
+        <div id='blog' className='flex flex-col p-10 bg-about'>
             <h3 className='flex justify-center items-center text-5xl mt-10 font-mono ' >BLOG</h3>
             <div className='flex mt-10'>
                 <div className='flex w-1/2'>

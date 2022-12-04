@@ -26,7 +26,7 @@ function SSS() {
 
 
     return (
-        <div className="w-full flex flex-col items-center bg-about">
+        <div id="sss" className="w-full flex flex-col items-center bg-about">
             <div className="">
                 <img src={background} alt="S.S.S. "></img>
             </div>

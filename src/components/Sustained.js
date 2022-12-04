@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Sustained() {
     return (
-        <div className='w-full h-full'>
+        <div id='sustained' className='w-full h-full'>
             <div className='flex flex-col items-center bg-about p-16'>
                 <div className='flex flex-row justify-around'>
                     <div className='w-1/3 flex flex-col items-center mt-8 p-5'>
