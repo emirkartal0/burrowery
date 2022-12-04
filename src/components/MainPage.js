@@ -16,7 +16,6 @@ function MainPage() {
             <HamburgerMenu />
             <Header />
             <AboutUs />
-            <Video />
             <Sustained />
             <Products />
             <Blog />

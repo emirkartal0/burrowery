@@ -5,18 +5,18 @@ function Sustained() {
     return (
         <div id='sustained' className='w-full h-full'>
             <div className='flex flex-col items-center bg-about p-16'>
-                <div className='flex flex-row justify-around'>
-                    <div className='w-1/3 flex flex-col items-center mt-8 p-5'>
+                <div className='flex flex-wrap justify-around'>
+                    <div className='w-3/12 min-w-min flex flex-col items-center mt-8 p-5'>
                         <h3 className='text-koyu text-4xl font-serif'>Sürdürülebilir</h3>
                         <h4 className='text-center mt-2' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illum adipisci necessitatibus consequatur itaque cum obcaecati.</h4>
                         <img className='mt-8' src='/images/surdur.png' alt="img" />
                     </div>
-                    <div className='w-1/3 flex flex-col items-center mt-8 p-5 ml-10'>
+                    <div className='w-3/12 min-w-min flex flex-col items-center mt-8 p-5'>
                         <h3 className='text-koyu text-4xl font-serif'>Sürdürülebilir</h3>
                         <h4 className='text-center mt-2' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illum adipisci necessitatibus consequatur itaque cum obcaecati.</h4>
                         <img className='mt-8' src='/images/surdur.png' alt="img" />
                     </div>
-                    <div className='w-1/3 flex flex-col items-center mt-8 p-5 ml-10 '>
+                    <div className='w-3/12 min-w-min flex flex-col items-center mt-8 p-5'>
                         <h3 className='text-koyu text-4xl font-serif'>Sürdürülebilir</h3>
                         <h4 className='text-center mt-2' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illum adipisci necessitatibus consequatur itaque cum obcaecati.</h4>
                         <img className='mt-8' src='/images/surdur.png' alt="img" />
