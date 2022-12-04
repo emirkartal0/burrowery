@@ -15,10 +15,9 @@ function HamburgerMenu() {
                         <button className='px-4 py-1 rounded-lg font-normal hover:text-about hover:bg-koyu duration-300 transition-all'>HAKKIMIZDA</button>
                         <button className='px-4 py-1 rounded-lg hover:text-about hover:bg-koyu duration-300 transition-all'>SÜRDÜRÜLEBİLİRLİK</button>
                         <button className='px-4 py-1 rounded-lg hover:text-about hover:bg-koyu duration-300 transition-all'>ÜRÜNLER</button>
-                        <button className='px-4 py-1 rounded-lg hover:text-about hover:bg-koyu duration-300 transition-all'>BLOK</button>
+                        <button className='px-4 py-1 rounded-lg hover:text-about hover:bg-koyu duration-300 transition-all'>BLOG</button>
                         <button className='px-4 py-1 rounded-lg hover:text-about hover:bg-koyu duration-300 transition-all'>S.S.S</button>
                         <button className='px-4 py-1 rounded-lg hover:text-about hover:bg-koyu duration-300 transition-all'>İLETİŞİM</button>
-
                     </div>
                 </div>
                 <button onClick={handleChangeIsOpen} className="fixed top-14 left-10  rounded-lg"><img src={`${isOpen ? "/images/close-24.png" : "/images/ham-menu-24.svg"}`}></img></button>

@@ -3,23 +3,25 @@ import AboutPage from "./pages/AboutPage";
 import SustainedPage from "./pages/SustainedPage";
 import ProductsPage from "./pages/ProductsPage";
 import BlogPage from "./pages/BlogPage";
+import HamburgerMenu from "./components/HamburgerMenu";
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import HamburgerMenu from "./components/HamburgerMenu";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <AboutUs />
-      <Video />
-      <Sustained />
-      <Products />
-      <Blog />
-    </Router>
+      <Router>
+        <HamburgerMenu />
+        <Routes>
+          <Route path='/' element={ <MainPage /> } />
+          <Route path='/hakkımızda' element={ <AboutPage /> } />
+          <Route path='/surdurulebilir' element={ <SustainedPage /> } />
+          <Route path='/urunler' element={ <ProductsPage /> } />
+          <Route path='/blog' element={ <BlogPage /> } />
+        </Routes>
+      </Router>
   );
 }
 
